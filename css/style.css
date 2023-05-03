@@ -1,6 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
-@import url('//db.onlinewebfonts.com/c/b621d1ffb46493164fd62fb7a83ab0ff?family=MarkW05-Medium');
-@import url('//db.onlinewebfonts.com/c/b25ec1550b168b7b62a4433df859d357?family=MarkW05-NarrowHeavy');
+@font-face {
+    font-family: "MarkW05-NarrowHeavy";
+    src: url("../assets/fonts/Mark W05 Narrow Heavy.eot");
+    /* IE9*/
+    src: url("../assets/fonts/Mark W05 Narrow Heavy.woff") format("woff"),
+        /* chrome、firefox */
+        url("../assets/fonts/Mark W05 Narrow Heavy.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "MarkW05-Medium";
+    src: url("assets/fonts/Mark W05 Medium.eot");
+    /* IE9*/
+    src: url("../assets/fonts/Mark W05 Medium.woff") format("woff"),
+        /* chrome、firefox */
+        url("../assets/fonts/Mark W05 Medium.woff2") format("woff2");
+}
 
 * {
     padding: 0;
@@ -106,6 +120,7 @@
     align-items: center;
     color: var(--warning-text-color);
     font-family: var(--font-family-main-bold);
+    font-weight: 900;
     font-size: 14px;
     margin-bottom: 24px;
     cursor: pointer;
@@ -404,6 +419,7 @@ form:valid .submit-btn:hover {
 .footer-links-group a {
     color: rgba(249, 249, 249, 0.65);
     font-family: var(--font-family-main-bold);
+    font-weight: 900;
     line-height: 15px;
     letter-spacing: var(--letter-spacing);
     font-size: 14px;
@@ -421,6 +437,7 @@ form:valid .submit-btn:hover {
     border-radius: 5px;
     padding: 8px 13px;
     font-family: var(--font-family-main-bold);
+    font-weight: 900;
     color: #e8e8e8;
     cursor: default;
 }
@@ -442,6 +459,7 @@ form:valid .submit-btn:hover {
 .footer-text p {
     color: rgba(249, 249, 249, 0.65);
     font-family: var(--font-family-main-bold);
+    font-weight: 400;
     font-size: 9px;
     letter-spacing: var(--letter-spacing);
 }
